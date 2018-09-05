@@ -116,3 +116,7 @@ dmypy.json
 secrets.py
 .secrets.py
 secrets.py/
+
+#node modules
+/node_modules
+node_modules/

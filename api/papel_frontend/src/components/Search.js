@@ -10,20 +10,14 @@ export default class Search extends Component {
     this.setState({ value: event.target.value });
   };
 
-  handleNext = myJson => {
-    this.setState({ searchValues: myJson });
-
-    return this.state.searchValues;
-  };
-
   handleSubmit = event => {
     fetch("http://localhost:8000/api/papers/?search=" + this.state.value)
       .then(response => {
         return response.json();
       })
       .then(myJson => {
-        this.handleNext(myJson);
-        return myJson;
+        this.setState({ searchValues: myJson });
+        return this.state.searchValues;
       });
     event.preventDefault();
   };

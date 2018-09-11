@@ -11,5 +11,5 @@ class ListPapersViewSet(viewsets.ModelViewSet):
     queryset = Papers.objects.all()
     serializer_class = PapersSerializers
     filter_backends = [SearchFilter, OrderingFilter]
-    ordering_fields = ['text', 'timestamp']
-    search_fields = ['text', 'timestamp']
+    ordering_fields = ['title', 'year', 'receipient', 'sender', 'text']
+    search_fields = ['title', 'year', 'receipient', 'sender', 'text']

@@ -1,6 +1,6 @@
 # MiningPapal
 
-MiningPapal was built with the following technologies: Python3, Django, JavaScript(ES6), and React.js
+MiningPapal was built with the following technologies: Python3, Django, JavaScript(ES6), React.js and Love ❤.
 
 In order to run the project's two development servers (client and server-side) you must have Python3, and Node.js installed on your machine.
 
@@ -25,5 +25,5 @@ In the project's root directory within Terminal(Bash) run the following commands
 
 * `npm run start` (This will run the JavaScript React frontend at [http://127.0.0.1:3000/]. NOTE: React may prompt you to change ports if you currently have something running on port 3000) 
 
-You're all set now! Happy Hacking!
+You're all set now! Happy Hacking!😁
 

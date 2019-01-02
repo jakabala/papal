@@ -50,7 +50,15 @@ MIDDLEWARE = [
 CORS_ORIGIN_WHITELIST = (
     'localhost:3001',
     '127.0.0.1:3001',
-    'localhost:3000'
+    'localhost:3000',
+    'localhost:3002',
+    '127.0.0.1:3002',
+    'localhost:3002',
+    '127.0.0.1:3004',
+    'localhost:3004'
+    '127.0.0.1:3003',
+    'localhost:3003',
+    'https://papelproject.herokuapp.com/'
 )
 
 REST_FRAMEWORK = {
@@ -88,7 +96,7 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite34'),
     }
 }
 

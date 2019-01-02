@@ -1,15 +1,17 @@
 import React, { Component } from "react";
 import "./App.css";
 
-import Main from "./components/Main.js";
-import Search from "./components/Search.js";
+import Main from "./components/Main";
+import Search from "./components/Search";
+import Inputs from "./components/Inputs";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main />
         <Search />
+
+        <hr />
       </div>
     );
   }

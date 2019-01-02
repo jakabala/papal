@@ -1,3 +1,12 @@
 .checkBox {
   margin-top: 25px;
 }
+.searchResults {
+  text-align: left;
+  width: 750px;
+  margin-left: 23%;
+  background-color: darkgray;
+  padding: 15px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}

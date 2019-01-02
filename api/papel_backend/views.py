@@ -7,7 +7,7 @@ from rest_framework.generics import RetrieveUpdateDestroyAPIView
 
 # Create your views here.
 
-class ListPapersViewSet(viewsets.ModelViewSet):
+class ListPapersViewSet(viewsets.ModelViewSet, generics.RetrieveUpdateDestroyAPIView):
     queryset = Papers.objects.all()
     serializer_class = PapersSerializers
     filter_backends = [SearchFilter, OrderingFilter]

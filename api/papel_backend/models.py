@@ -9,5 +9,10 @@ class Papers(models.Model):
     receipient = models.CharField(max_length=250, null=True)
     sender = models.CharField(max_length=250, null=True)
 
+def __str__(self):
+    """A string of the model"""
+    return self.name
+
+
     class Meta:
         verbose_name_plural = "Papers"

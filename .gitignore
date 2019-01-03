@@ -117,6 +117,10 @@ secrets.py
 .secrets.py
 secrets.py/
 
+#ignore the ds store
+.DS_Store
+
+
 #node modules
 /node_modules
 node_modules/
